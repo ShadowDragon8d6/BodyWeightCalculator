@@ -28,11 +28,11 @@ while check == 0:
     print("Please enter a valid response.")
 
 
-Men = ["Chest Skinfold","Abdomen Skinfold","Thigh Skinfold","Age","Waist Circumference",
-       "Forearm Circumference"]
+Men = ["Chest Skinfold (mm)","Abdomen Skinfold (mm)","Thigh Skinfold (mm)","Age (Year)",
+       "Waist Circumference (m)", "Forearm Circumference (m)"]
 
-Women = ["Triceps Skinfold","Thigh Skinfold","Suprailiac Skinfold","Age",
-         "Gluteal Circumference"]
+Women = ["Triceps Skinfold (mm)","Thigh Skinfold (mm)","Suprailiac Skinfold (mm)","Age (Year)",
+         "Gluteal Circumference (cm)"]
 
 measurements_got = []
 
