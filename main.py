@@ -62,6 +62,7 @@ for part in measurements_needed:
     if not isfloat(measurement):
         checker = 0
     else:
+      checker = 1
       measurements_got.append(float(measurement))
 
 
