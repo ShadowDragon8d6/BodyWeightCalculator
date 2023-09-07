@@ -9,8 +9,11 @@ def isfloat(num):
     else: 
       return False
   if period <= 1:
-    if float(num) >= 0 and num[0] != ".":
-      return True
+    if num != ".":
+      if float(num) >= 0 and num[0] != ".":
+        return True
+      else:
+        return False
     else:
       return False
   else:
