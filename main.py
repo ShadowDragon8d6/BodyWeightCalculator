@@ -55,9 +55,9 @@ for part in measurements_needed:
   checker = 0
   while checker == 0: 
     if part == "Age (Year)":
-      measurement = input("Please enter your age (Year): ")
+      measurement = input("\nPlease enter your age (Year): ")
     else:
-      measurement = input("Please enter the measurement for your " + part + ": ")
+      measurement = input("\nPlease enter the measurement for your " + part + ": ")
     
     if not isfloat(measurement):
         checker = 0
@@ -96,7 +96,7 @@ else:
 
 
 body_fat_percentage = (495 / body_density) - 450
-print(f"Your body fat percentage is {body_fat_percentage:.2f}%")
+print(f"\nYour body fat percentage is {body_fat_percentage:.2f}%")
 
 #women_body_density = 1.1470292-(0.0009376*skin_fold_sum)+(0.0000030 *(skin_fold_sum**2))-(0.0001156 *age) - (0.0005839 *gluteal_circumference)
 
