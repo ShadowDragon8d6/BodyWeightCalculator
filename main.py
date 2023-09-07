@@ -10,6 +10,11 @@ def isfloat(num):
       return False
   if period <= 1:
     if num != ".":
+      try:
+        float(num)
+      except ValueError:
+        return False
+        
       if float(num) >= 0 and num[0] != ".":
         return True
       else:
