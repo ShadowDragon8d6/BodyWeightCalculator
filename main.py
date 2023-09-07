@@ -54,8 +54,8 @@ measurements_got = []
 for part in measurements_needed:    
   checker = 0
   while checker == 0: 
-    if part == "Age":
-      measurement = input("Please enter your age: ")
+    if part == "Age (Year)":
+      measurement = input("Please enter your age (Year): ")
     else:
       measurement = input("Please enter the measurement for your " + part + ": ")
     
