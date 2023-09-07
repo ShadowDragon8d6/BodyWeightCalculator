@@ -55,7 +55,7 @@ for part in measurements_needed:
   checker = 0
   while checker == 0: 
     if part == "Age":
-      measurement = int(input("Please enter your age: "))
+      measurement = input("Please enter your age: ")
     else:
       measurement = input("Please enter the measurement for your " + part + ": ")
     
