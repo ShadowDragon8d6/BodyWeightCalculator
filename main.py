@@ -33,7 +33,7 @@ while check == 0:
   if GENDER == "F" or GENDER  == "M":
     check = 1
   else:
-    print("Please enter a valid response.")
+    print("\nPlease enter a valid response.\n")
 
 
 Men = ["Chest Skinfold (mm)","Abdomen Skinfold (mm)","Thigh Skinfold (mm)","Age (Year)",
