@@ -96,7 +96,7 @@ else:
 
 
 body_fat_percentage = (495 / body_density) - 450
-print("Your body fat percentage is " + str(body_fat_percentage) + "%")
+print(f"Your body fat percentage is {body_fat_percentage:.2f}%")
 
 #women_body_density = 1.1470292-(0.0009376*skin_fold_sum)+(0.0000030 *(skin_fold_sum**2))-(0.0001156 *age) - (0.0005839 *gluteal_circumference)
 
