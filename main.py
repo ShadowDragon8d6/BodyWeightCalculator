@@ -23,8 +23,9 @@ def isfloat(num):
       return False
   else:
     return False
-
-
+#push function
+def push(stack,value):
+  return [value] + stack
 
 check = 0
 global GENDER  #Getting gender of user
@@ -76,8 +77,9 @@ for part in measurements_needed:    #This code stores the users inputted measure
         checker = 0
     else:
       checker = 1
-      measurements_got.append(float(measurement))
+      measurements_got = push(measurements_got,float(measurement))
 
+measurements_got = measurements_got[::-1]
 
 if GENDER == "M": #calculation for MEN
 
